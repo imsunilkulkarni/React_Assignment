@@ -1,0 +1,75 @@
+{
+  "header": [
+    "Name",
+    "Email",
+    "Age",
+    "YearsofExperience",
+    "Positionapplied",
+    "Applied",
+    "Status"
+  ],
+  "users": {
+    "data": [
+      {
+        
+        "Name": "Giacoma Gullizona",
+        "Email": "giocona@gmail.com",
+        "Age":"32",
+        "YearsofExperience":5,
+        "Positionapplied":"Developer",
+        "Applied":"24/05/2018",
+        "Status":"Waiting"
+      },
+      {
+        
+        "Name": "William Bob",
+        "Email": "bob@gmail.com",
+        "Age":"42",
+        "YearsofExperience":2,
+        "Positionapplied":"PO",
+        "Applied":"10/03/2018",
+        "Status":"Approved"
+      },
+      {
+        
+        "Name": "Ana Julia",
+        "Email": "ana@gmail.com",
+        "Age":"28",
+        "YearsofExperience":4,
+        "Positionapplied":"Backend Developer",
+        "Applied":"10/06/2018",
+        "Status":"Approved"
+      },
+      {
+        
+        "Name": "Giacoma Gullizona",
+        "Email": "giocona@gmail.com",
+        "Age":"32",
+        "YearsofExperience":5,
+        "Positionapplied":"Developer",
+        "Applied":"24/05/2018",
+        "Status":"Waiting"
+      },
+      {
+        
+        "Name": "Benjamin Button",
+        "Email": "benjamin@gmail.com",
+        "Age":"61",
+        "YearsofExperience":24,
+        "Positionapplied":"Manager",
+        "Applied":"20/04/2018",
+        "Status":"Rejected"
+      },
+      {
+        "Name": "Ethan Jr",
+        "Email": "ethan@gmail.com",
+        "Age":"22",
+        "YearsofExperience":4,
+        "Positionapplied":"Front End Develoepr",
+        "Applied":"10/05/2018",
+        "Status":"Rejected"
+      }
+      
+    ]
+  }
+}

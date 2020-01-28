@@ -1,0 +1,88 @@
+$primaryBlack: #000;
+$primaryHash: #ccc;
+$primaryBlue: #61dafb;
+
+body{
+  margin: 0 auto;
+  width:90%;
+  font-size:12px;
+  .bold{
+    font-weight:bold;
+  }
+
+
+  .table{
+    border: 1px solid $primaryHash;
+    .tableheader{
+      overflow: hidden;
+      font-weight:bold;
+    }
+    .repeat, .repeated{
+      display: inline-block;
+      padding:5px;
+      width:14%;
+      border-right:1px solid $primaryHash;
+      box-sizing: border-box;
+    }
+    .repeat{
+      background: $primaryBlue;
+    }
+    .repeated{
+      border-top:1px solid $primaryHash;
+    }
+    .filter-area{
+      padding-left:10px;
+      .filter-input{
+        margin:4px 0;
+        font-size:12px;
+        line-height: 18px;
+      }
+    }
+  }
+  
+  .perpage-cont{
+    float:left;
+    margin-top: 10px;
+  }
+  .count-dropdown{
+    font-size:12px;
+  }
+
+  .page-container ul{
+    list-style:none;
+    float:right;
+    li{
+      list-style:none;
+      display: inline-block;
+      cursor:pointer;
+      margin-right:10px;
+      &.active{
+        border:1px solid $primaryBlack;
+        padding:0 5px;
+      }
+    }
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
